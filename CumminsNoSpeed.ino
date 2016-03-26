@@ -362,7 +362,7 @@ void afterStartCycle (byte t) {   //continues to operate the intake heater after
     delay(7000);  //stay off for 7sec
     heatOn();
     delay(6000);   //on for 6sec
-
+    heatOff();     //back to off
   }
 
 }
